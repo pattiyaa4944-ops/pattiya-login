@@ -1,0 +1,9 @@
+name: Login-Pattiya
+on: [push]
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python main
