@@ -1,0 +1,16 @@
+#URL
+url = https://example.com/login
+
+# ตัวแปรเที่เรากำหนดไว้
+user_correct = " student "
+pass_correct = "student"
+
+# ค่าที่ส่งไปทดสอบ
+user_input = "student"
+pass_input = "student"
+
+# เช็คเงื่อนไข
+if user_input == user_correct and pass_input == pass_correct:
+    print("Login Success!")
+else:
+    print("Login Fail!")
