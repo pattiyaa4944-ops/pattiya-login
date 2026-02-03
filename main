@@ -1,5 +1,5 @@
 #URL
-url = https://example.com/login
+url = "https://example.com/login"
 
 # ตัวแปรเที่เรากำหนดไว้
 user_correct = " student "
